@@ -1,26 +1,27 @@
-var path = require("path");
+// webpack.config.js
+var path = require('path');
 
 module.exports = {
-  context: __dirname,
-  entry: "./frontend/app.jsx",
+  entry: './frontend/app.jsx',
   output: {
-    path: path.resolve(__dirname, 'app', 'assets', 'javascripts'),
-    filename: "bundle.js"
+    filename: './bundle.js',
   },
   module: {
     rules: [
       {
-        test: [/\.jsx?$/, /\.js?$/],
-        exclude: /node_modules/,
-        loader: 'babel-loader',
-        query: {
-          presets: ['env', 'react']
-        }
+        test: [/\.jsx?$/],
+        exclude: /(node_modules)/,
+        use: {
+          loader: 'babel-loader',
+          query: {
+            presets: ['env', 'react']
+          }
+        },
       }
     ]
   },
   devtool: 'source-map',
   resolve: {
-    extensions: [".js", ".jsx", "*"]
+    extensions: ['.js', '.jsx', '*']
   }
 };
