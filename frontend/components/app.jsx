@@ -1,11 +1,9 @@
 import React from 'react';
-import { Provider } from 'react-redux';
-import App from './app.jsx';
 
-const Root = ({ store }) => (
-  <Provider store={store}>
-    <App />
-  </Provider>
+const App = () => (
+  <div>
+    <h1>Super Awesome way to Interact</h1>
+  </div>
 );
 
-export default Root;
+export default App;
