@@ -13,12 +13,14 @@ class Example extends Component {
 
     render () {
         return (
+            <div>
             <h1>Video Background</h1>
             <video id="background-video" autoPlay loop muted>
                 <source src={this.state.videoURL} type="video/mp4" />
                 <source src={this.state.videoURL} type="video/ogg" />
                 Your browser does not support the video tag.
             </video>
+            </div>
         );
     }
 }

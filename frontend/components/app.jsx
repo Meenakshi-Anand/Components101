@@ -1,9 +1,12 @@
 import React from 'react';
-import Example from './information/loop_video_backgrounds';
+import LoopingBackground from './information/loop_video_backgrounds';
 const App = () => (
   <div>
-    <h1>Super Awesome way to Interact</h1>
-    <Example />
+    <Switch>
+    <Route exact path="/" component={LandingPage} />
+    <Route exact path="/loopingbackground" component={LoopingBackground} />
+    <Redirect to="/" />
+    </Switch>
   </div>
 );
 
