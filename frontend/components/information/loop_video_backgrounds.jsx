@@ -13,6 +13,7 @@ class Example extends Component {
 
     render () {
         return (
+            <h1>Video Background</h1>
             <video id="background-video" autoPlay loop muted>
                 <source src={this.state.videoURL} type="video/mp4" />
                 <source src={this.state.videoURL} type="video/ogg" />
