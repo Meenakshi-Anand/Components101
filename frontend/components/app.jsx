@@ -1,4 +1,5 @@
 import React from 'react';
+import LandingPage from './information/landing_page';
 import LoopingBackground from './information/loop_video_backgrounds';
 const App = () => (
   <div>
