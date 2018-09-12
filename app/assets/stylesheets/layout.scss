@@ -1,0 +1,19 @@
+html{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+	max-width: 100%;
+	margin: 0 auto;
+	background: rgb(40,44,52);
+	height: 100%;
+}
+
+.plink{
+	font-size: 11px;
+	color: #365899;
+	cursor: pointer;
+}
+.deadlinks{
+  cursor: not-allowed;
+}
