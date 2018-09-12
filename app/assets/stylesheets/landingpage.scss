@@ -1,4 +1,39 @@
 .landing_backdrop {
-  background-color: rgb(40,44,52);
+  background-color: rgb(255,255,255);
+  color: black;
+}
+.landing_section1{
+  background-image: url("background.png") !important;
+  background-repeat: no-repeat;
+  height:300px;
+  color: black;
+}
+.landing_text{
+  margin:0 150px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color:rgb(97,218,251);
+  padding-top: 80px;
+}
+.landing_text h1{
+  font-size: 2em;
+}
+.landing_text h4{
+  letter-spacing: 0.01em;
   color: white;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+
+.landing_button{
+  background-color: rgb(97,218,251);
+  color:black;
+  padding:15px;
+  font-weight: normal;
+}
+.landing_button:hover{
+  background-color: white;
 }
