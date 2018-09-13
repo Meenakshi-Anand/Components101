@@ -41,9 +41,12 @@ class LandingPage extends Component {
               </div>
               </div>
               <section className="landing_line"></section>
-              <ol id="list_of_components">
-              <li><Link to={"/loopingbackground"}>Looping Background</Link></li>
+              <section id="list_of_components">
+              <h1 className="getting_started_title">Getting Started</h1>
+              <ol className="getting_started_links">
+              <li><Link className="active_links" to={"/loopingbackground"}>Looping Background</Link></li>
               </ol>
+              </section>
             </div>
             </div>
         );

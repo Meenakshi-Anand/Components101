@@ -76,3 +76,25 @@
   margin-top: 40px;
   margin:0 150px;
 }
+.getting_started_title{
+  color: rgb(40, 44, 52);
+  margin-bottom: 0px;
+  margin-top: 80px;
+  margin-left: 20px;
+  font-size: 60px;
+  line-height: 65px;
+  font-weight: 700;
+}
+#list_of_components{
+  margin:0 150px;
+}
+.getting_started_links{
+  margin-top: 30px;
+  font-size: 17px;
+  line-height: 1.7;
+  max-width: 42em;
+}
+.active_links:hover{
+  text-decoration: underline;
+  color: blue;
+}
